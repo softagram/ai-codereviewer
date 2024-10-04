@@ -113,6 +113,9 @@ function createPrompt(file, chunk, prDetails) {
 - Write the comment in GitHub Markdown format.
 - Use the given description only for the overall context and only comment the code.
 - IMPORTANT: NEVER suggest adding comments to the code.
+- IMPORTANT: NEVER complain about the code style.
+- IMPORTANT: NEVER complain about TODO comments.
+- IMPORTANT: NEVER add more than 5 comments per review. ONLY add the top 5 most important or urgent findings.
 
 Review the following code diff in the file "${file.to}" and take the pull request title and description into account when writing the response.
   
